@@ -1,7 +1,7 @@
-import 'package:country_pickers_fix/country.dart';
-import 'package:country_pickers_fix/utils/typedefs.dart';
+import 'package:country_pickers/country.dart';
+import 'package:country_pickers/utils/typedefs.dart';
 
-import 'package:country_pickers_fix/utils/my_alert_dialog.dart';
+import 'package:country_pickers/utils/my_alert_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 import 'countries.dart';

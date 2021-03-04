@@ -1,4 +1,4 @@
-import 'package:country_pickers_fix/country.dart';
+import 'package:country_pickers/country.dart';
 
 final List<Country> countryList = [
   Country(

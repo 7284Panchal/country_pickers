@@ -1,6 +1,6 @@
-import 'package:country_pickers_fix/country.dart';
-import 'package:country_pickers_fix/countries.dart';
-import 'package:country_pickers_fix/utils/typedefs.dart';
+import 'package:country_pickers/country.dart';
+import 'package:country_pickers/countries.dart';
+import 'package:country_pickers/utils/typedefs.dart';
 import 'package:flutter/material.dart';
 import 'utils/utils.dart';
 
@@ -127,7 +127,8 @@ class _CountryPickerDropdownState extends State<CountryPickerDropdown> {
             "The initialValue provided is not a supported iso code!");
       }
     } else {
-      if(widget.isFirstDefaultIfInitialValueNotProvided && _countries.length>0){
+      if (widget.isFirstDefaultIfInitialValueNotProvided &&
+          _countries.length > 0) {
         _selectedCountry = _countries[0];
       }
     }

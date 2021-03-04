@@ -1,7 +1,7 @@
-import 'package:country_pickers_fix/countries.dart';
-import 'package:country_pickers_fix/country.dart';
-import 'package:country_pickers_fix/utils/typedefs.dart';
-import 'package:country_pickers_fix/utils/utils.dart';
+import 'package:country_pickers/countries.dart';
+import 'package:country_pickers/country.dart';
+import 'package:country_pickers/utils/typedefs.dart';
+import 'package:country_pickers/utils/utils.dart';
 import 'package:flutter/cupertino.dart';
 import 'dart:core';
 
